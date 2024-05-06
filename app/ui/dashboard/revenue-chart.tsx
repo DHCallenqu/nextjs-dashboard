@@ -3,8 +3,6 @@ import { CalendarIcon } from '@heroicons/react/24/outline';
 import { lusitana } from '@/app/ui/fonts';
 import { fetchRevenue } from '@/app/lib/data';
  
-// ...
- 
 export default async function RevenueChart() { // Make component async, remove the props
   const revenue = await fetchRevenue(); // Fetch data inside the component
  
